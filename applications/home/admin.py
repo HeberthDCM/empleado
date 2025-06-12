@@ -3,4 +3,4 @@ from .models import Prueba
 
 # Register your models here.
 
-admin.register(Prueba)
+admin.site.register(Prueba)
