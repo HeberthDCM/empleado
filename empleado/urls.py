@@ -22,6 +22,6 @@ from applications.home.views import IndexView,ListView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include('applications.home.urls')),
-    
+    path('', include('applications.home.urls')), 
+    path('', include('applications.empleado.urls')),    
 ]
